@@ -1,0 +1,22 @@
+.see-more {
+    position: relative;
+    padding-left: 60px;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    text-transform: uppercase;
+
+    
+    transform: rotate(-90deg) translate(0, 100%);
+    // смещаем точку вращения вниз
+    transform-origin: left bottom;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: calc(50% - 1.5px);
+        width: 38px;
+        height: 3px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}
