@@ -1,0 +1,17 @@
+.slide {
+    height: 100vh;
+    overflow: hidden;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slide__header {}
+
+.slide__tagline {}
+
+.slide__title {}
+
+.slide__location {}

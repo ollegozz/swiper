@@ -8,24 +8,14 @@
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
-		<!-- @@include('blocks/header.html') -->
 		<header class="header">
-			<div class="header__content">
-				<div class="header__nav">
-					@@include('blocks/nav.html')
-				</div>
-				<div class="header__socials">
-					@@include('blocks/socials.html')
-				</div>
-				<div class="header__see-more">
-					@@include('blocks/see-more.html')
-				</div>
-				<div class="header__slider-controls">
-					@@include('blocks/slider-controls.html')
-				</div>
-				<div class="header__slider-cont"></div>
-				<div class="header__scrollbar"></div>
+
+			<div class="header__slide">
+				@@include('blocks/slide.html')
 			</div>
+
+			@@include('blocks/header__content.html')
+
 		</header>
 		<!-- @@include('blocks/footer.html') -->
 		<script src="./js/index.bundle.js"></script>
