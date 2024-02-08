@@ -94,4 +94,19 @@
     }
 }
 
-.slide__location {}
+.slide__location {
+    display: flex;
+    column-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 1023px) {
+            width: 90%;
+        }
+
+                @media (max-width: 767px) {
+                    width: 90%;
+                    flex-direction: column;
+                    column-gap: 20px;
+                }
+}
