@@ -10,9 +10,9 @@
     flex-grow: 1;
 
     @media (max-width: 1400px) {
-            padding: 20px 20px 18px 55px;
-            background-position: 15px 22px;
-        }
+        padding: 20px 20px 18px 55px;
+        background-position: 15px 22px;
+    }
 
     &::before {
         content: '';
@@ -42,8 +42,8 @@
     margin-bottom: 4px;
 
     @media (max-width: 1400px) {
-            font-size: 18px;
-        }
+        font-size: 18px;
+    }
 }
 
 .location__link {
