@@ -8,18 +8,23 @@ import 'swiper/css/bundle';
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    // direction: 'vertical',
     loop: true,
+    parallax: true,
+    speed: 1000,
+    keyboard: {
+        enabled: true
+    },
 
     // If we need pagination
     pagination: {
-        el: '.swiper-pagination',
+        el: '.slider-controls__count',
+        type: 'fraction'
     },
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '#sliderNext',
+        prevEl: '#sliderPrev'
     },
 
     // And if we need scrollbar

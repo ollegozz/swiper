@@ -75,12 +75,15 @@
 
 .header__scrollbar {
 	pointer-events: all;
+	
 	position: absolute;
 	right: 0;
-	top: 50%;
-	transform: translate(0%, -50%);
+	top: 45%;
 
-	background-color: #878787;
-	height: 400px;
-	width: 10px;
+
+	width: 400px;
+	height: 10px;
+	background-color: red;
+
+	transform: rotate(90deg) translate(50%, 0%);
 }
