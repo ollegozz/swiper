@@ -83,7 +83,8 @@
 
 	width: 400px;
 	height: 10px;
-	background-color: red;
+	// background-color: red;
 
 	transform: rotate(90deg) translate(50%, 0%);
+	transform-origin: right top;
 }
