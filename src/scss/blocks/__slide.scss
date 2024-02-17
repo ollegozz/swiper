@@ -19,6 +19,12 @@
     text-fill-color: transparent;
 }
 
+@mixin background-size {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .slide {
     height: 100vh;
     overflow: hidden;
@@ -29,38 +35,45 @@
     justify-content: space-between;
 
     background-color: #555;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 
     &--norway {
         background: var(--radial-bg),
             var(--linear-bg),
             url('./../img/slider-bg/01.jpg');
+
+            @include background-size;
     }
 
     &--austria {
         background: var(--radial-bg),
             var(--linear-bg),
             url('./../img/slider-bg/02.jpg');
+
+            @include background-size;
     }
 
     &--uae {
         background: var(--radial-bg),
             var(--linear-bg),
             url('./../img/slider-bg/03.jpg');
+
+            @include background-size;
     }
 
     &--thailand {
         background: var(--radial-bg),
             var(--linear-bg),
             url('./../img/slider-bg/04.jpg');
+
+            @include background-size;
     }
 
     &--morocco {
         background: var(--radial-bg),
             var(--linear-bg),
             url('./../img/slider-bg/05.jpg');
+
+            @include background-size;
     }
 
     color: #fff;
